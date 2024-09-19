@@ -41,4 +41,4 @@ superior para calcular el factorial, pero concateno a 900\n""")#puedo usar tiple
 # C.1) Del ejecutar primero el main
 if __name__ == "__main__":
         main()
-# Por Said Carbot y Elian, ESCOM-IPN-MEX Septiembre 2024
+# Por Said Carbot Cruz Trejo, ESCOM-IPN-MEX Septiembre 2024
