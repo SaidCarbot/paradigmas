@@ -1,0 +1,51 @@
+'''
+Sobre que hace el código: Este el la base general como en C pero para .py
+
+'''
+# X) Módulos
+'''
+import random
+import os
+import sys
+#import numpy
+#import cs50'''
+
+# A) Global variables
+
+# D) Functions and classes
+def division(n, m):
+    c = 0
+    r = n
+    # validar que no sea entre cero
+    if m == 0:
+        print("Recuerda que el cero cabría infinitas veces en cualqueir Real, por eso no hay división entre cero")
+        return None
+    #Resta iteravtiva
+    while r >= m:
+        r = r - m  
+        c = c + 1 
+    return c, r
+
+# C) Main
+def main(): #if so, command-lines argument (from sys import argv)
+    print("Este código calcúla la división mediante restas sucesivas\n")
+    n = 1
+    m = 1
+    while True:
+        print("Ingresa dos números entre 0 y infinito para dividir\n")
+        print("Recuerda que no pueden haber divisiones entre cero, m no puede ser cero\n")
+        n = int(input("n: ")) # asi es mas eficiente que lo verde
+                                #print("m:",end="")
+                                #m = int(input())
+        m = int(input("m: "))
+        resultado = division(n,m)# a na variable se peude meter dos o mas d elos que regresa, ja, no sabia.
+        if resultado is None:
+             continue
+        cociente,residuo = resultado
+        print(f"Ingresaste un {n}/{m}\n")
+        print(f"La división de {n}/{m} es {cociente} con un un residuo de {residuo}\n")
+    
+# C.1) Del ejecutar primero el main
+if __name__ == "__main__":
+        main()
+# Por Said Carbot, ESCOM-IPN-MEX Septiembre 2024
