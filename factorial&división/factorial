@@ -1,0 +1,44 @@
+'''
+Sobre que hace el código: Este el la base general como en C pero para .py
+
+'''
+'''# X) Módulos
+import math
+import random
+import os
+import sys
+#import numpy
+#import cs50'''
+
+# A) Global variables
+
+# D) Functions and classes
+def factorial(n):
+    if n == 0 or n == 1:# habia puesto 
+        return 1
+    else:# habia puesto elif condicion: 
+        return (n*factorial(n-1))
+
+# C) Main
+def main(): #if so, command-lines argument (from sys import argv)
+    print("Este código calcúla el factorial \n")
+    print("""Recuerda que en pyhton no hay una cota
+superior para calcular el factorial, pero concateno a 900\n""")#puedo usar tiple doble
+    #comilla para parrafos
+    n = -1
+    while n != 0:
+        print("\nIngresa un número entre 1 y 900 para calcular el factorial:",end="")
+        n = int(input())
+        if 0 > n > 900:
+            print("\nIngresa un número entre 1 y 900:",end="")
+        else: 
+            print(f"Ingresaste {n}")
+            # Asi añado comas para separar cifras
+            print(f"El factorial de {n} es {factorial(n):,}")
+        
+    if n == 0:
+        print("Saliendo...0")
+# C.1) Del ejecutar primero el main
+if __name__ == "__main__":
+        main()
+# Por Said Carbot y Elian, ESCOM-IPN-MEX Septiembre 2024
