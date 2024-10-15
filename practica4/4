@@ -1,0 +1,48 @@
+# Del ejerciccio 4
+'''
+Ejercicio de Laboratorio 4: Métodos y funciones, parte II
+Instrucciones
+-En el lenguaje de programación de tu elección, resuelve el siguiente problema. 
+-Dada una cadena que contiene solo los caracteres '(' y ')', regresa la longitud de la subcadena válida más larga.
+
+Ejemplo 1:
+Input: s = "(()"
+Output: 2
+Razón: La subcadena válida más larga es "()".
+
+Ejemplo 2:
+Input: s = ")()())"
+Output: 4
+Explicación: La subcadena válida más larga es "()()".
+
+Ejemplo 3:
+Input: s = ""
+Output: 0
+
+Restricciones:
+0 <= s.length <= 3 * 10^4
+s[i] es '(', o ')'.'''
+
+
+#Cadena de parentesis
+
+def longSubcad(sc):
+    c=[-1]
+    long_max=0
+
+    for i in range (len(sc)):
+        if sc[i]=='(':
+            c.append(i)
+        else:
+            c.pop()
+            if len(c)==0:
+                c.append(i)
+            else:
+                long_max=max(long_max, i-c[-1])
+    return long_max
+
+
+cad=input("Ingrese una cadena de parentesis:")
+print(longSubcad(cad))
+
+# Por Eliam Torres y Said Carbot, octubre 2024 ESCOM-IPN-MEX
