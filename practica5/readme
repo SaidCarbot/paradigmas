@@ -1,0 +1,15 @@
+Readme
+23.oct.2024
+
+Ejercicio de Laboratorio 5: programación funcional
+Instrucciones
+Resuelve los siguientes ejercicios, empleando funciones, expresiones lambda y las funciones filter o map.
+Duplicar los valores de los elementos de una lista.
+Sumar dos listas.
+Duplicar un número si es par y triplicarlo si es impar.
+Encontrar las vocales de una cadena de texto.
+Encontrar aquellos valores de una lista que sean divisibles entre 3
+Crear una lista de listas a partir de una lista de entrada:
+Entrada: ['sat', 'bat', 'cat', 'mat']
+Salida: [['s', 'a', 't'], ['b', 'a', 't'], ['c', 'a', 't'], ['m', 'a', 't']]
+
