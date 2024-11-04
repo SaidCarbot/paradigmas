@@ -1,0 +1,40 @@
+De la práctica de laboratorio 6, primera clase de programacion orientada a objetos. 
+
+Instrucciones generales: 
+
+Definir la Clase Libro:
+
+Crea una clase llamada Libro que tenga los siguientes atributos:
+  titulo (tipo String)
+  autor (tipo String)
+  isbn (tipo String - código único del libro)
+  estado (tipo String - indica si el libro está “disponible” o “prestado”)
+Asegura que todos los atributos sean privados para aplicar encapsulamiento.
+
+Define los métodos necesarios para:
+|Acceder y modificar los atributos de manera controlada (getters y setters).
+|Inicializar los objetos (constructor)
+|Cambiar el estado del libro (por ejemplo, al prestarlo o devolverlo).
+
+Implementar la Clase Biblioteca:
+
+Crea una clase llamada Biblioteca que gestionará una colección de libros.
+
+Esta clase debe tener:
+|Una colección privada de libros (por ejemplo, un ArrayList<Libro>, lista simple o un arreglo simple, dependiendo del lenguaje).
+
+Define los siguientes métodos:
+|agregarLibro(Libro libro): añade un libro a la colección.
+|buscarLibroPorISBN(String isbn): devuelve un libro específico si encuentra el ISBN o null en caso contrario.
+|prestarLibro(String isbn): cambia el estado del libro a “prestado” si está disponible.
+|devolverLibro(String isbn): cambia el estado del libro a “disponible” si está prestado.
+
+Nota: Estas operaciones deben demostrar abstracción, ocultando los detalles internos de cómo se manejan los libros.
+
+Simulación:
+Crea un programa que simule el uso de la biblioteca:
+  Añade al menos 3 libros.
+  Muestra la colección de libros disponible.
+  Permite prestar un libro introduciendo su ISBN.
+  Permite devolver un libro por ISBN.
+  Muestra el estado actualizado de los libros.
