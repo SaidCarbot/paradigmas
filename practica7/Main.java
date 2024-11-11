@@ -1,4 +1,4 @@
-import java.util.ArrayList; // Importar la clase ArrayList
+import java.util.ArrayList; 
 
 // Clase base Empleado
 class Empleado {
