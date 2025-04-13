@@ -92,7 +92,7 @@ Additionally, we apply Beauregard’s qubit optimization strategy, reducing the 
 
 
 5. **Gate Complexity**:
-   - The gate complexity of the proposed circuit is $(O(n³ log(n)))$, which is manageable in comparison to earlier designs that required O(n³) gates. The depth of the circuit is O(n³), meaning that the quantum operations are arranged to minimize the number of sequential operations required.
+   - The gate complexity of the proposed circuit is $O(n³ log(n))$, which is manageable in comparison to earlier designs that required O(n³) gates. The depth of the circuit is O(n³), meaning that the quantum operations are arranged to minimize the number of sequential operations required.
 
 
 ---
