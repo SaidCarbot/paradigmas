@@ -211,16 +211,6 @@ Algorithm outline:
 ### Date: April 12, 2025 
 ---
 
-
-
-
-## 💼 Acknowledgments
-
-
-
-
-This project was developed as part of **YQuantum 2025 Hackathon** — an initiative fostering quantum innovation and collaboration.
-—
 ## Executive Summary: Ongoing Relevance of Shor’s Algorithm in Quantum Factorization
 
 
@@ -285,3 +275,11 @@ This project was developed as part of **YQuantum 2025 Hackathon** — an initiat
 [8] Devpost Project: “Purrallel – Quantum Factoring,” [Online]. Available: https://devpost.com/software/purrallel/joins/0lTKGjrySzZc1C-HxzO6lg  
 </span>
 
+
+## 💼 Acknowledgments
+
+
+
+
+This project was developed as part of **YQuantum 2025 Hackathon** — an initiative fostering quantum innovation and collaboration.
+—
