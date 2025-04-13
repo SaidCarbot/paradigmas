@@ -143,10 +143,10 @@ This work demonstrates that it is possible to reduce the number of qubits and th
 
 
 Steps performed:  
-1. **Swap** qubits `i` ↔ `n‑i‑1` to reverse register order.  
+1. **Swap** qubits `i` ↔ `n‑i‑1` to reverse register order.  
 2. For each qubit *i*, apply controlled‑phase rotations  
-   \(\mathrm{CP}\bigl(-\pi/2^{\,i-j}\bigr)\) from every qubit *j < i*.  
-3. Finish with a **Hadamard** on each qubit (in reverse order).
+   $(\mathrm{CP}(-\pi/2^{\,i-j}))$ from every qubit *j < i*.  
+3. Finish with a **Hadamard** on each qubit (in reverse order).  
 
 
 ---
