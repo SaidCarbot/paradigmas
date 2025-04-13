@@ -161,7 +161,7 @@ Steps performed:
 
 
 Returns  
-`(p, q)` — prime factors found by naïve trial division up to \(\sqrt{N}\);  
+`(p, q)` — prime factors found by naïve trial division up to $(\sqrt{N}\)$;  
 `(None, None)` if no factor is found (which only happens when `N` is prime).
 
 
