@@ -276,12 +276,12 @@ This project was developed as part of **YQuantum 2025 Hackathon** — an initiat
 
 ## References 
 [1] P. W. Shor, “Algorithms for quantum computation: discrete logarithms and factoring,” in *Proc. 35th Annual Symposium on Foundations of Computer Science*, 1994, pp. 124–134. DOI: [10.1109/SFCS.1994.365700](https://doi.org/10.1109/SFCS.1994.365700)  
-[2] S. Beauregard, “Circuit for Shor’s algorithm using 2n+3 qubits,” *arXiv preprint quant-ph/0205095*, 2003. [Online]. Available: https://arxiv.org/abs/quant-ph/0205095 
-[3] D. Beckman, A. N. Chari, S. Devabhaktuni, and J. Preskill, “Efficient networks for quantum factoring,” *Phys. Rev. A*, vol. 54, no. 2, pp. 1034–1063, 1996. DOI: [10.1103/PhysRevA.54.1034](https://doi.org/10.1103/PhysRevA.54.1034) 
-[4] S. DeVera, “Optimized implementation of Shor’s algorithm with 7n+1 qubits,” unpublished manuscript, 2023. 
-[5] O. Regev, “An Efficient Quantum Factoring Algorithm,” *Number Theory Web Seminar (NTWS 195)*, video lecture, 2023. [Online]. Available: https://www.youtube.com/watch?v=SzToqdRy1Ys 
-[6] S. Ragavan and V. Vaikuntanathan, “Improved Quantum Algorithms for Factoring,” *arXiv preprint arXiv:2310.00899v4*, Dec. 2024. [Online]. Available: https://arxiv.org/abs/2310.00899 
-[7] QuantumRings Team, “Installing QuantumRings SDK with CUDAq,” *QuantumRings Documentation*, 2024. [Online]. Available: https://portal.quantumrings.com/doc/Installation.html 
-[8] Devpost Project: “Purrallel – Quantum Factoring,” [Online]. Available: https://devpost.com/software/purrallel/joins/0lTKGjrySzZc1C-HxzO6lg 
+[2] S. Beauregard, “Circuit for Shor’s algorithm using 2n+3 qubits,” *arXiv preprint quant-ph/0205095*, 2003. [Online]. Available: https://arxiv.org/abs/quant-ph/0205095  
+[3] D. Beckman, A. N. Chari, S. Devabhaktuni, and J. Preskill, “Efficient networks for quantum factoring,” *Phys. Rev. A*, vol. 54, no. 2, pp. 1034–1063, 1996. DOI: [10.1103/PhysRevA.54.1034](https://doi.org/10.1103/PhysRevA.54.1034)  
+[4] S. DeVera, “Optimized implementation of Shor’s algorithm with 7n+1 qubits,” unpublished manuscript, 2023.  
+[5] O. Regev, “An Efficient Quantum Factoring Algorithm,” *Number Theory Web Seminar (NTWS 195)*, video lecture, 2023. [Online]. Available: https://www.youtube.com/watch?v=SzToqdRy1Ys  
+[6] S. Ragavan and V. Vaikuntanathan, “Improved Quantum Algorithms for Factoring,” *arXiv preprint arXiv:2310.00899v4*, Dec. 2024. [Online]. Available: https://arxiv.org/abs/2310.00899  
+[7] QuantumRings Team, “Installing QuantumRings SDK with CUDAq,” *QuantumRings Documentation*, 2024. [Online]. Available: https://portal.quantumrings.com/doc/Installation.html   
+[8] Devpost Project: “Purrallel – Quantum Factoring,” [Online]. Available: https://devpost.com/software/purrallel/joins/0lTKGjrySzZc1C-HxzO6lg  
 </span>
 
