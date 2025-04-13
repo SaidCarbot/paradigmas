@@ -64,7 +64,7 @@ $$
 This is achieved by preparing a quantum superposition and applying modular exponentiation, which encodes the period into the quantum state amplitudes. The Quantum Fourier Transform (QFT) is then used to extract the period through measurement.
 
 
-Additionally, we apply Beauregard’s qubit optimization strategy, reducing the required qubit count to \( 2n + 3 \) for an \( n \)-bit semiprime, making the approach more feasible for near-term quantum hardware and simulators[2].
+Additionally, we apply Beauregard’s qubit optimization strategy, reducing the required qubit count to 2n + 3 for an  n -bit semiprime, making the approach more feasible for near-term quantum hardware and simulators[2].
 
 
 ---
