@@ -201,12 +201,13 @@ Algorithm outline:
 
 | Metric                   | Value                     |
 |---------------------------|----------------------------|
-| Largest Integer Factored  | *[3081178794322790282667 (bit length: 74)]*              |
-| a value          | *[6452409114750336274754]*                  |
-| Computed Factors          | *[104893902637, 124708667191]*                  |
-| Qubits Used               | *[75]*          |
-| Quantum Gate Count        | *[1901]*           |
-| Execution Time            | *[5🕥]*                  |
+| Largest Integer Factored  | *3081178794322790282667*              |
+| bit length          | *74*                  |
+| a value          | *6452409114750336274754*                  |
+| Computed Factors          | *104893902637, 124708667191*                  |
+| Qubits Used               | *75]*          |
+| Quantum Gate Count        | *1901*           |
+| Execution Time            | *5:30 hours*                  |
 
 
 
